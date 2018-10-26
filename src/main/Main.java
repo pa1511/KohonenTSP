@@ -16,7 +16,7 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		
-		int instanceId = 4;//getRequestedInstanceId(args);
+		int instanceId = getRequestedInstanceId(args);
 		
 		Path filePath = Paths.get("data/example"+instanceId+".txt");
 		if(!filePath.toFile().exists()) {
@@ -231,7 +231,7 @@ public class Main {
 			System.exit(0);
 		}
 		
-		if(instanceId>=0) {
+		if(instanceId<=0) {
 			System.out.println("The instance identifier needs to be a positive integer number.");
 			System.exit(0);
 		}
