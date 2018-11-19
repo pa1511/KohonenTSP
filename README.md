@@ -22,23 +22,23 @@ There are 5 examples in the data folder. The next graphs show one solution per i
 
 Example 1
 
-![Example1](/images/tsp-example1.png)
+![Example1](/images/instance1.gif)
 
 Example 2
 
-![Example2](/images/tsp-example2.png)
+![Example2](/images/instance2.gif)
 
 Example 3
 
-![Example3](/images/tsp-example3.png)
+![Example3](/images/instance3.gif)
 
 Example 4
 
-![Example4](/images/tsp-example4.png)
+![Example4](/images/instance4.gif)
 
 Example 5
 
-![Example5](/images/tsp-example5.png)
+![Example5](/images/instance5.gif)
 
 ## Adding your own examples
 If you wish to add your own examples for the network to solve add them to the data folder. 

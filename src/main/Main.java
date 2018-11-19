@@ -51,7 +51,7 @@ public class Main {
 		}
 		graph.centralize();
 		graph.display();
-		
+				
 		//Utility
 		Random random = new Random();
 		
