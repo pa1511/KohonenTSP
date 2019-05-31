@@ -165,8 +165,8 @@ public class Main {
 		double totalDistance = 0;
 		
 		for(int i=0; i<path.length; i++) {
-			int start = i;
-			int end = (i+1)%path.length;
+			int start = i; start = path[start];
+			int end = (i+1)%path.length; end = path[end];
 			totalDistance+=distanceBetween(cities[start], cities[end]);
 		}
 		
